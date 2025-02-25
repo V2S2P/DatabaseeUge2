@@ -50,4 +50,14 @@ public class Book {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", releaseYear=" + releaseYear +
+                ", authors=" + authors +
+                ", id=" + id +
+                '}';
+    }
 }
